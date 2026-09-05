@@ -3,7 +3,111 @@
         
     </head>
     <body>
-<h1><a href="tableofcontent.html"></a></h1>
+<h1><a href="tableofcontent.html">Programming Concept And Logics</a></h1>
 
-    </body>
+<h2>5.1 Programming Languages</h2>
+<h3>5.1.1 Introduction</h3>
+<p>
+A programming language is used to give instructions to a computer and develop programs.
+</p>
+<h2>5.1.2 Types of Languages</h2>
+<p>
+Low-level languages are close to hardware, high-level languages are easy for humans, and 4GL languages require less coding and are more user-friendly.
+</p>
+<h2>5.1.3 Translator</h2>
+<p>
+A compiler translates the whole program, an interpreter translates line by line, and an assembler converts assembly language into machine code.
+</p>
+<h2>5.1.4 Errors</h2>
+<p>
+Syntax error violates programming rules, semantic error has incorrect meaning or logic, and runtime error occurs during execution.
+</p>
+<h2>5.1.5 Control Structures</h2>
+<p>
+Sequence executes statements in order, selection makes decisions, and iteration repeats statements.
+</p>
+<h2>5.1.6 Program Design Tools</h2>
+<p>
+An algorithm is a step-by-step solution, a flowchart represents the solution using symbols, and pseudocode describes program logic in simple language.
+</p>
+<h2>5.1.7 Number and Character Codes</h2>
+<p>
+Binary uses 0 and 1, BCD represents decimal digits in binary, ASCII represents characters using codes, and Unicode supports characters of many languages.
+</p>
+<h2>5.2 C Programming</h2>
+<h3>5.2.1 Introduction and Features</h3>
+<p>
+C is a fast, structured, portable, general-purpose programming language widely used for system and application programming.
+</p>
+<h2>5.2.2 Structure of C Program</h2>
+<p>
+A C program generally contains headers, main(), declarations, statements, and return.
+</p>
+<pre>
+#include <stdio.h>
+int main() {
+    printf("Hello");
+    return 0;
+}
+</pre>
+<h2>5.2.3 Preprocessor and Header Files</h2>
+<p>
+The preprocessor handles # directives before compilation. Header files provide predefined functions, e.g. #include <stdio.h>.
+</p>
+<h2>5.2.4 Character Set</h2>
+<p>
+C uses letters, digits, special symbols, whitespace, and escape characters.
+</p>
+<h2>5.2.5 Comments</h2>
+<p>
+Comments explain code and are ignored by the compiler: // comment or /* comment */.
+</p>
+<h2>5.2.6 Identifiers, Keywords and Tokens</h2>
+<p>
+Identifiers are user-defined names, keywords are reserved words such as int and if, and tokens are the basic elements of a program.
+</p>
+<h2>5.2.7 Data Types</h2>
+<p>
+Basic data types are char, int, float, double, and void.
+</p>
+<h2>5.2.8 Constants and Variables</h2>
+<p>
+A constant does not change, while a variable can change during execution.
+</p>
+
+<h2>5.2.12 I/O Functions</h2>
+<p>
+printf() displays output and scanf() accepts input.
+
+scanf("%d",&n);
+printf("%d",n);
+</p>
+<h2>5.2.13 Selection Statements</h2>
+<p>
+if, if-else, else-if, nested-if, and switch are used for decision-making.
+
+if(a>b) printf("A");
+else printf("B");
+</p>
+<h2>5.2.14 Iteration Statements</h2>
+<p>
+while, do-while, and for are used for repetition. A loop inside another loop is called a nested loop.
+
+for(i=1;i<=5;i++)
+    printf("%d ",i);
+</p>
+<h2>5.2.15 Array</h2>
+<p>
+An array stores multiple values of the same type. 1D uses one index and 2D uses rows and columns.
+
+int a[5];
+int m[2][2];
+
+Matrix addition/subtraction is done element by element: C[i][j] = A[i][j] ± B[i][j].
+</p>
+<h2>5.2.16 String</h2>
+<p>
+A string is a sequence of characters ending with \0. Common functions are strlen() for length, strcat() for joining, strcmp() for comparison, strcpy() for copying, and strrev() for reversing. strlwr() and strupr() convert strings to lowercase and uppercase, respectively.
+    </p>
+</body>
 </html>
